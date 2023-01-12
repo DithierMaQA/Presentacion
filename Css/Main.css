@@ -12,11 +12,14 @@
     }
 }
 */
-main {
+/*main {
     background: linear-gradient( -45deg, #2941f19e, #52a5d5c4, #2941f19e, #52a5d5c4, #2941f19e);
     background-size: 400% 400%;
     animation: gradient 10s ease infinite;
     padding: 10px;
+}*/
+.video1 {
+    margin-left: 31px;
 }
 
 @keyframes gradient {
