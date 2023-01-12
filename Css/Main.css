@@ -1,0 +1,66 @@
+/*body {
+
+    animation: pulse 5s infinite;
+}
+@keyframes pulse {
+    0% {
+        background: rgba(0,117,255,1);
+    }
+
+    100% {
+        background: #024ea8;
+    }
+}
+*/
+main {
+    background: linear-gradient( -45deg, #2941f19e, #52a5d5c4, #2941f19e, #52a5d5c4, #2941f19e);
+    background-size: 400% 400%;
+    animation: gradient 10s ease infinite;
+    padding: 10px;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+#myVideo {
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.HIMg {
+    -webkit-transition: -webkit-transform 0.3s ease-in-out 0.2s;
+}
+
+    .HIMg:hover {
+        -webkit-transform: scale(1.2);
+    }
+
+
+.dtas::-webkit-scrollbar {
+    display: none;
+}
+.modimg {
+max-width:260px;
+}
+.btnimg{
+    max-width:240px;
+}
+.modimga {
+    max-width: 220px;
+}
